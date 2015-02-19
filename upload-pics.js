@@ -14,3 +14,10 @@ function view(obj)
 	x = document.getElementById(obj.title).src;
 	canvas.style.backgroundImage="url('"+x+"')";  
 }
+
+function deletePic(obj)
+{
+	console.log(obj.title+"div");
+	document.getElementById(obj+"div").remove();
+	document.getElementById(obj+"c").remove();
+}
