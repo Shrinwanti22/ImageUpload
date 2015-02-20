@@ -17,7 +17,6 @@ function view(obj)
 
 function deletePic(obj)
 {
-	console.log(obj.title+"div");
 	document.getElementById(obj+"div").remove();
 	document.getElementById(obj+"c").remove();
 }
